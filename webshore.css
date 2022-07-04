@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0;
+padding:0;}
+
+body {
+	background:#F9F9F9}
+/*第一板块css*/
+.header {
+	width:980px;
+	height:86px;
+	margin:0 auto;
+	line-height:86px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	color:#CCC;}
+.header h1 strong {
+	font-weight:bolder;
+	font-size:36px;}
+.header h1 em {
+	font-style:normal;
+	font-size:14px;}
+	
+/*第二板块css*/
+.fenlei {
+	width:980px;
+	margin:0 auto;}
+.fenlei p {
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+	color:#CCC;}
+.fenlei .one{
+	letter-spacing:5px;}
+.fenlei .second{
+	word-spacing:20px;}
+.fenlei h5 {
+	font-family:"微软雅黑";
+	height:42px;
+	line-height:42px;
+	color:#CCC;}
+/*第三板块*/
+.bestseller {
+	width:600px;
+	margin:0 auto;}
+.bestseller .txt {
+	letter-spacing:5px;
+	line-height:30px;
+	text-indent:2em;
+	color:#CCC;}
+.bestseller em{
+	font-style:normal;
+	text-decoration:underline;}
+/*第四板块*/
+.footerone{
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+	color:#CCC;}
+.footersecond{
+	width:600px;
+	margin:0 auto;
+	text-indent:2em;
+	font-family:"微软雅黑";
+	color:#CCC;}
+.footersecond p{
+	font-size:12px;
+	height：30px;
+	line-height:30px;
+	letter-spacing:1px;}
