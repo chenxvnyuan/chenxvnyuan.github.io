@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>拼图</title>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			body{background-color:#2F4F4F;}
+			ul{list-style: none;}
+			.game{width:1200px;margin:50px auto;}
+			.game p{width:1200px;height:30px;line-height:30px;text-align: center;color:#FFFFFF;font-size:18px;clear:both;background-color: #556652;}
+			.box{width:550px;height:540px;border:2px solid #00B3FF;position:relative;float:left;margin-left:10%;}
+			.box div{width:180px;height:180px;float:left;overflow: hidden;position:absolute;border:1px solid #696969;}
+			.box img{position:absolute;}
+			.pic{float:right;}
+			.pic ul{width:220px;}
+			.pic li{width:200px;height:auto;margin:10px 0;}
+			.pic img{width:150px;height:auto; }	
+			</style>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/pingtu.js"></script>
+	</head>
+	<body>
+		<div class="game">	
+			<div class="box">
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>
+				 <div><img src="" /></div>				
+			</div>
+			<div class="pic">
+				<ul>
+					<li><a href="javascript:void(0)"> <img src="images/pt1.jpg"  alt="#"  title="#" /></a></li>
+					<li><a href="javascript:void(0)"> <img src="images/pt2.jpg"  alt="#"  title="#" /></a></li>
+					<li><a href="javascript:void(0)"> <img src="images/pt3.jpg"  alt="#"  title="#" /></a></li>
+					<li><a href="javascript:void(0)"> <img src="images/pt4.jpg"  alt="#"  title="#"/></a></li>
+				</ul>				
+			</div>
+			<p>点击图片开始游戏，右边大图选择图片</p>			
+		</div>
+	</body>
+</html>
